@@ -1,0 +1,926 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*===========STYLES=============*/
+
+/*===========FORM STYLES=============*/
+
+#jForm input.error, #jForm select.error {
+	border: 1px solid red;
+}
+
+#jForm label.error {
+	font-family: 'Sanchez', serif;
+	font-size: .8em;
+	color: #F00;
+	margin-left: 3px;
+	margin-bottom: 20px;
+	top: -20px;
+}
+
+form h4 {
+	padding: 10px 0px;
+}
+
+/*===========END FORM STYLES=============*/
+
+body {
+	background-color: #F9F6E6;
+    width: 100%;
+}
+
+h1 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 3em;
+	line-height: 1.6em;
+	color: #095a8d;
+}
+
+h2 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.7em;
+	line-height: 1.4em;
+	color: #095a8d;
+}
+
+h3 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	color: #095a8d;
+}
+
+h4 {
+	font-family: 'Sanchez', serif;
+	font-size: 1.2em;
+	color: #095a8d;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	line-height: 1.2em;
+	color: #095a8d;
+}
+
+a {
+	text-decoration: none;
+	color: #095a8d;
+}
+
+a:hover {
+	color: #fc0;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+}
+
+#logo {
+	width: 300px;
+	padding-top: 20px;
+	margin: 0 auto;
+	display: inline-block;
+	position: relative;
+	z-index: 5;
+	float: left;
+}
+
+.header {
+	margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+.nav {
+	font-family: 'Architects Daughter', cursive;
+	margin: 120px 10px 0px 10px;
+	font-size: 1.3em;
+	display: inline-block;
+	color: #095a8d;
+}
+
+.nav a {
+	margin-left: 30px;
+}
+
+.icon {
+    display: none;
+}
+
+.hero {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: -90px;
+}
+
+.hero img {
+	display: block;
+	width: 100%;
+	margin: -100px 0px -80px 0px;
+}
+
+.hero h1 {
+	position: absolute;
+	top: 280px;
+	left: 50px;
+}
+
+#sloganResp {
+	display: none;
+}
+
+.bodyLine {
+	width: 100%;
+	margin: -5px 0px;
+}
+
+.firstText {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.ribsText {
+	margin-top: 60px;
+	text-align: center;
+	height: 250px;
+	background-image: url(../images/ribsdark.jpg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding: 60px 20px 0px 20px;
+}
+
+.ribsText h3, .ribsText h2 {
+	color: white;
+}
+
+button {
+	background: url(../images/button.png) no-repeat;
+	background-size: 95%;
+	cursor: pointer;
+	border: none;
+	width: 200px;
+	height: 75px;
+}
+
+button[type=button] {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 1.1em;
+	color: #fff;
+}
+
+.buttonLink {
+	color: white;
+}
+
+.aboutChef img{
+	width: 50%;
+	margin: 10px 0px;
+}
+
+.chefText {
+	float: right;
+	width: 43%;
+	margin-right: 20px;
+	margin-top: 50px;
+	padding: 20px 20px 30px 20px;
+	text-align: center;
+}
+
+.chefText h3 {
+	margin-top: 50px;
+}
+
+.hamText {
+	text-align: center;
+	height: 250px;
+	background-image: url(../images/hamsdark.jpg);
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	padding: 50px 20px 10px 20px;
+}
+
+.hamText h2, .hamText h3 {
+	color: white;
+}
+
+
+
+/*===================MENU PAGE================*/
+
+.menu {
+	padding-bottom: 50px;
+}
+
+.menuhero {
+	margin-top: -100px;
+	background-image: url("../images/brisket.jpg");
+    height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectiontitle {
+	width: 100%;
+	background-color: #095a8d;
+	clear: both;
+}
+
+.sectiontitle h1 {
+	color: #fff;
+	margin-left: 20px;
+}
+
+.startersleft {
+	width: 40%;
+	float: left;
+	padding: 15px;
+}
+
+.startersright {
+	width: 40%;
+	float: left;
+	padding: 15px;
+}
+
+.startersResp {
+	display: none;
+}
+
+#menuLine {
+	height: 350px;
+	margin-left: 6%;
+	float: left;
+}
+
+.startersleft h4, .startersright h4, .startersResp h4, .sandwichesText h4, .bigPlatesText h4, .desserts h4 {
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.sandwiches img {
+	width: 50%;
+	float: left;
+	padding: 20px 10px 20px 20px;
+	margin-bottom: 30px;
+}
+
+.sandwichparallax {
+	display: none;
+}
+
+.sandwichesText {
+	width: 45%;
+	margin: 20px 10px;
+	float: left;
+}
+
+.rightAlign {
+	position: relative;
+	right: -100px;
+}
+
+.menuparallax {
+	display: none;
+}
+
+.bigPlates img {
+	width: 35%;
+	float: left;
+	margin: 20px 10px 20px 20px;
+}
+
+.bigPlatesText {
+	float: left;
+	width: 45%;
+	max-width: 600px;
+	margin: 20px 20px 20px 10px;
+}
+
+.sides {
+	margin: 20px;
+	max-width: 800px;
+}
+
+.sidesleft {
+	margin: 20px;
+	float: left;
+}
+
+.sidesright {
+	margin: 20px;
+	float: right;
+}
+
+.desserts {
+	margin: 20px 20px 20px 40px;
+	max-width: 850px
+}
+
+/*==============RESERVATION PAGE===============*/
+
+
+.resWrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.reservations {
+	width: 350px;
+	margin-left: 100px;
+	float: left;
+}
+
+#disclaimer {
+	font-size: .75em;
+}
+
+#vertLine {
+	margin-left: 50px;
+	float: left;
+}
+
+form {
+	float: left;
+	width: 200px;
+	margin-right: 100px;
+	margin-left: 50px;
+}
+
+form input, select {
+	padding: 10px;
+	margin: 5px;
+	width: 200px;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 15px;
+	margin-top: 10px;
+	background-color: white;
+}
+
+
+/*==================LOCATIONS PAGE==================*/
+
+
+.locations {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.locations h2, .locations p {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.locations img {
+	width: 800px;
+}
+
+
+/*==================SUCCESS PAGE==================*/
+
+
+.parallax {
+    background-image: url("../images/bigsandwich.jpg");
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#successText {
+	width: 350px;
+	padding: 20px;
+	margin: 0 auto;
+	background: rgba(255,255,255,.8);
+	position: relative;
+	top: 200px;
+	text-align: center;
+}
+
+.respSuccess {
+	display: none;
+}
+
+
+/*====================FOOTER=====================*/
+
+
+footer {
+	clear: both;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.footerLeft {
+	float: left;
+	margin-left: 50px;
+	margin-top: -30px;
+	padding: 10px;
+}
+
+footer input[type=text] {
+	padding: 10px;
+	margin: 5px;
+	width: 200px;
+	font-family: 'Architects Daughter', cursive;
+	color: #8c8c8c;
+}
+
+.footerRight {
+	float: right;
+	margin-right: 50px;
+}
+
+.social {
+	width: 60px;
+}
+
+.footerAddress {
+	clear: both;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+
+
+/*=================MEDIA QUERIES==================*/
+
+
+@media only screen and (max-width: 1024px) {
+	#logo {
+		width: 200px;
+		margin-bottom: 15px;
+	}
+	
+	.header {
+		margin: -30px 0px 5px 0px;
+		font-size: .8em;
+	}
+	
+	h2 {
+		font-size: 1.5em;
+	}
+	
+	h3 {
+		font-size: 1.2em;
+	}
+	
+	h4 {
+		font-size: 1em
+	}
+	
+	.firstText {
+		margin-top: 40px;
+		height: 120px;
+	}
+
+	.chefText {
+		width: 40%;
+		margin-top: -30px;
+	}
+	
+	.ribsText {
+		height: 175px;
+	}
+	
+	.hamText {
+		height: 175px;
+	}
+
+	.reservations {
+		float: none;
+		width: 500px;
+		margin: 0 auto;
+	}
+
+	#navLine {
+		width: 90%;
+	}
+
+	form {
+		float: none;
+		clear: both;
+		background-color: #095a8d;
+		padding: 20px;
+		padding-right: 50px;
+		width: 200px;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	form h2, form h4 {
+		color: #fff;
+	}
+
+	#vertLine {
+		display: none;
+	}
+
+	footer input[type=text] {
+		width: 200px;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	
+	
+
+	.hero {
+		padding-top: 30px;
+	}
+	.chefText h2 {
+		display: none;
+	}	
+	
+	.startersleft {
+		display: none;
+	}
+
+	.startersright {
+		display: none;
+	}
+
+	.startersResp {
+		display: block;
+		max-width: 700px;
+		margin: 10px;
+	}
+
+	#menuLine {
+		display: none;
+	}
+
+	.sandwiches img {
+		display: none;
+	}
+
+	.sandwichesText {
+	width: 90%;
+	margin: 10px 10px 20px 10px;
+	float: none;
+	}
+
+	.rightAlign {
+	position: relative;
+	right: -100px;
+	}
+
+	.sandwichparallax {
+	display: block;
+	background-image: url(../images/bigsandwich.jpg);
+	height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+	.bigplateparallax {
+	display: block;
+	background-image: url(../images/wings.jpg);
+	height: 300px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+
+	.bigPlates img {
+		display: none;
+	}
+
+	.bigPlatesText {
+		width: 90%;
+		float: none;
+		clear: both;
+	}
+
+	#restInterior {
+		width: 90%;
+		margin: 1%;
+		float: none;
+	}
+
+	.restText {
+		margin-top: 20px;
+		clear: both;
+		margin-right: 25%;
+		text-align: center;
+	}
+
+	.open {
+		width: 75px;
+		float: left;
+		position: absolute;
+		left: 25px;
+	}
+
+	.gastate {
+		width: 100px;
+		float: right;
+		position: relative;
+		top: -30px;
+		right: 10px;
+	}
+
+	.chefText h3 {
+	margin-top: 20px;
+	}
+
+	.locations {
+		width: 700px;
+	}
+
+	.locations h1 {
+		font-size: 2.3em;
+		line-height: 1.5em;
+	}
+
+	.locations img {
+		width: 650px;
+	}
+
+	.footerLeft {
+		float: none;
+		width: 60%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.footerRight {
+		float: none;
+		width: 35%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 667px) {
+
+	.header {
+    	display: flex;
+    	flex-direction: column;
+    	text-align: center;
+		z-index: 100;
+	}
+	
+	.nav {
+		z-index: 0;
+	}
+
+	#logo {
+		width: 150px;
+		display: inline-block;
+		margin-left: 40%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.nav a {display: none;}
+    .nav a.icon {
+    	float: right;
+    	display: block;
+		font-size: 40px;
+		margin-right: 20px;
+		margin-top: -200px;
+  	}
+	
+	.nav.responsive {
+		position: relative;
+		font-family: 'Architects Daughter', cursive;
+		font-size: 1.4em;
+		line-height: 1.4em;
+		color: #095a8d;
+		margin-top: 80px;
+		margin-bottom: 175px;
+		margin: 0 auto;
+		text-align: center;
+		padding-bottom: 100px;
+	}
+		
+  .nav.responsive a.icon {
+    	position: absolute;
+    	right: 0;
+    	top: 0;
+  }
+  .nav.responsive a {
+    	float: none;
+    	display: block;
+	 	text-align: center;
+  }
+			
+	.hero {
+		margin-top: -80px;
+		padding-top: 60px;
+		height: 280px;
+	}
+	
+	.firstText {
+		padding: 20px 5px 20px 5px;
+		margin-top: -5px;
+	}
+
+	.aboutChef img {
+		width: 100%;
+	}
+
+	.chefText {
+		margin-right: 10px;
+		position: absolute;
+		margin-top: -265px;
+		width: 45%;
+		right: 0;
+	}
+	
+	.chefText h2, .chefText h3 {
+		color: white;
+		text-shadow: 0px 2px black;
+	}
+
+	.reservations{
+		width: 350px;
+	}
+
+	.locations {
+		width: 98%;
+	}
+
+	.locations h1 {
+		font-size: 2.3em;
+		line-height: 1.1em;
+	}
+
+	.locations img {
+		width: 100%;
+	}
+
+	.footerRight {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.parallax, #successText {
+		display: none;
+	}
+
+	.respSuccess {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.respSuccess img {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.menuhero {
+		margin-top: -20px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	
+	.chefText {
+		margin-right: 10px;
+		position: absolute;
+		margin-top: -265px;
+		width: 45%;
+		right: 0;
+	}
+
+	.rightAlign {
+		position: relative;
+		right: 0px;
+	}
+
+	.sidesleft {
+		float: none;
+		display: block;
+	}
+
+	.sidesright {
+		float: none;
+		display: block;
+	}
+
+	.restText {
+		margin: 5% 1%;
+	}
+
+	.openAtl {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.openAtl h2, .openAtl h3 {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.openAtl button {
+		margin-left: 0px;
+	}
+
+	.open {
+		display: none;
+	}
+
+	.gastate {
+		width: 125px;
+		float: right;
+		position: relative;
+		top: -10px;
+		right: 80px;
+	}
+
+	.locations {
+		width: 325px;
+		margin: 0 auto;
+	}
+
+	.locations h1 {
+		font-size: 2em;
+		line-height: 1.3em;
+	}
+
+
+	.locations h2 {
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+
+	.locations img {
+		width: 100%;
+	}
+
+	.footerRight {
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+
